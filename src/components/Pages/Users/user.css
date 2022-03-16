@@ -1,0 +1,26 @@
+.user_name {
+  line-height: 70%;
+  font-weight: 500;
+  font-size: 15px;
+}
+.user_email {
+  line-height: 50%;
+  font-weight: 500;
+  font-size: 15px;
+}
+.location {
+  font-size: 15px;
+}
+.user_card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 110px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.user_img {
+  border-radius: 75%;
+  padding: 5px;
+  margin-top: 12px;
+  width: 90px;
+  height: 90px;
+}
