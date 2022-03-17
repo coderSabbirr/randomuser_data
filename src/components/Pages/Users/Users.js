@@ -31,7 +31,7 @@ const Users = () => {
         <nav className="navbar navbar-light bg-light">
           <div className="container-fluid ps-5">
             <a className="navbar-brand" href=".....">
-              <img src="https://i.ibb.co/VDwr6xc/infraplan-logo.jpg" alt="" />
+              Logo
             </a>
             <form className="d-flex">
               <input
