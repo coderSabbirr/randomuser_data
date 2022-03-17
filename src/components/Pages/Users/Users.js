@@ -13,15 +13,13 @@ const Users = () => {
       });
   }, []);
 
-  // handle change event of search input
-
   // filter records by search text
   const handleSearch = (e) => {
     const searchValue = e.target.value;
     const lowercasedValue = searchValue.toLowerCase().trim();
-    const filteredData = users.filter((item) => {
-      return Object.keys(item.name).some((key) =>
-        item.name[key]?.toLowerCase().includes(lowercasedValue)
+    const filteredData = users.filter((user) => {
+      return Object.keys(user.name).some((key) =>
+        user.name[key]?.toLowerCase().includes(lowercasedValue)
       );
     });
     setDisplayUser(filteredData);
@@ -33,7 +31,7 @@ const Users = () => {
         <nav className="navbar navbar-light bg-light">
           <div className="container-fluid ps-5">
             <a className="navbar-brand" href=".....">
-              Navbar
+              <img src="https://i.ibb.co/VDwr6xc/infraplan-logo.jpg" alt="" />
             </a>
             <form className="d-flex">
               <input

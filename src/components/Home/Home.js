@@ -1,10 +1,10 @@
 import React from "react";
 import Users from "../Pages/Users/Users";
 
-const Home = (searchValue) => {
+const Home = () => {
   return (
     <div>
-      <Users searchValue={searchValue} />
+      <Users />
     </div>
   );
 };
